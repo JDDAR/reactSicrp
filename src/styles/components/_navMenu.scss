@@ -1,0 +1,13 @@
+@use "../variables" as v;
+
+.navMenu {
+  background: v.$color-secondary;
+  height: 90px;
+  display: flex;
+  justify-content: end;
+  .logoNavMenu {
+    background: v.$color-primary;
+    height: 100%;
+    width: 5%;
+  }
+}

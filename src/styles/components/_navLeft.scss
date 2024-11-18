@@ -1,0 +1,31 @@
+@use "../variables" as v;
+
+.containerNavLeft {
+  width: 25%;
+  height: 100%;
+  .menuNavLeft {
+    background: v.$color-secondary;
+    height: 100%;
+    border-radius: 12px;
+    list-style-type: none;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    li {
+      color: v.$color-primary;
+      padding: 10px;
+      display: flex;
+      gap: 5px;
+      align-items: center;
+      cursor: pointer;
+      border-radius: 6px;
+
+      &:hover,
+      .select {
+        background: v.$color-primary;
+        color: v.$color-secondary;
+      }
+    }
+  }
+}

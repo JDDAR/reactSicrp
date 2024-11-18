@@ -1,0 +1,78 @@
+@use "../variables" as v;
+
+.containerLogin {
+  display: flex;
+  width: 100%;
+  height: 91vh;
+  justify-content: space-between;
+  align-items: center;
+  &__imgLogin,
+  &__formularioLogin {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__imgLogin {
+    img {
+      width: 50%;
+    }
+  }
+  &__formularioLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 50vh;
+    border-left: 5px solid v.$color-secondary;
+    &__title {
+      h3 {
+        font-size: 5rem;
+        font-weight: 400;
+        color: v.$color-secondary;
+        border-bottom: 3px solid v.$color-secondary;
+      }
+      h4 {
+        font-weight: 600;
+      }
+    }
+
+    form {
+      width: 60%;
+      gap: 25px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      fieldset {
+        border: none;
+        width: 100%;
+      }
+      input {
+        padding: 10px;
+        width: 100%;
+        border: none;
+        border-radius: 3px;
+      }
+      button {
+        padding: 10px;
+        background: v.$color-secondary;
+        border: none;
+        width: 50%;
+        color: v.$color-primary;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+    }
+    .inputsForm {
+      background: v.$color-secondary;
+      width: 100%;
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+      border-radius: 6px;
+    }
+  }
+}
