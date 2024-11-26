@@ -29,3 +29,16 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .containerNavLeft {
+    width: 100%;
+    height: auto;
+    .menuNavLeft {
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: start;
+    }
+  }
+}

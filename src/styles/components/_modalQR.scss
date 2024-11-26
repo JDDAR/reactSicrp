@@ -1,0 +1,51 @@
+@use "../variables" as v;
+
+.containerModal {
+  position: absolute;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(v.$color-primary, 0.8);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background: v.$color-primary;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    border: 2px solid v.$color-secondary;
+    border-radius: 12px;
+    box-shadow: v.$box-shadow;
+    position: relative;
+    button {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      background: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 8px;
+      color: v.$color-secondary;
+      font-weight: 800;
+      border: none;
+      font-size: 1.5rem;
+    }
+    h2 {
+      border-top: 5px solid v.$color-secondary;
+      width: 100%;
+      text-align: center;
+      font-weight: 300;
+      font-size: 2rem;
+    }
+  }
+}

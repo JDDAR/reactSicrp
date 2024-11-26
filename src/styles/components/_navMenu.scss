@@ -11,3 +11,16 @@
     width: 5%;
   }
 }
+
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  button {
+    padding: 8px 16px;
+    background: v.$color-primary;
+    color: v.$color-secondary;
+    border-radius: 6px;
+    font-weight: 800;
+    border: none;
+  }
+}

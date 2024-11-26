@@ -15,11 +15,11 @@ const TablaCuadrante = () => {
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Patrulla 101</td>
-            <td>Cuadrante 5</td>
-            <td>Calle 123</td>
-            <td>Ruta A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>

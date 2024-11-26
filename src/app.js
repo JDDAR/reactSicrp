@@ -5,9 +5,7 @@ import Pagina02 from "./page/Pagina02";
 function App() {
   return (
     <div className="App">
-      <LoginPage />
       <Pagina01 />
-      <Pagina02 />
     </div>
   );
 }
